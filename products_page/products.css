@@ -1,0 +1,35 @@
+body {
+  background: #FFF0EC;
+}
+
+.scrolling {
+  background: #852C3C !important;
+}
+
+.products-header div {
+  background: url('https://images.unsplash.com/photo-1517682165294-35e1ba483543?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7b0ae9c1fd963a117f0c869e69f91c56&auto=format&fit=crop&w=1950&q=80') center center / cover no-repeat;
+  background-position: center;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.price-tag {
+  font-size: 2rem;
+  color: #852C3C;
+  float: right;
+}
+
+.footer {
+  background: #852C3C;
+  margin-top: 3rem;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 2rem;
+}
+
+#nav-top {
+  background: rgba(255, 255, 255, .2);
+  transition: all .2s;
+}
