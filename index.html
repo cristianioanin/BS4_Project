@@ -42,31 +42,124 @@
   </nav>
   <!-- Top Navbar END -->
 
-  <!-- Jumbotron -->
+  <!-- Header -->
   <section class="products-header">
     <div class="jumbotron text-center text-white">
       <h1 class="display-3 mt-5">TIME</h1>
       <p class="lead">15 BILLION YEARS AGO</p>
-      <P class="lead">Looking back seems like you were born to be late.<br /> Not anymore!</P>
+      <hr class="my-4">
+      <p>Looking back seems like you were born to be late. Well...</p>
+      <a class="btn btn-maincolor btn-lg" href="#" role="button">not anymore</a>
     </div>
   </section>
-  <!-- Jumbotron END -->
+  <!-- Header END -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Side menu LEFT -->
+      <div class="dropdown d-none d-md-block col-md-3">
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            MEN - Classic Watches
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            WOMEN - Classic Watches
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Smartwatches
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Side menu LEFT END -->
+
+      <!-- Promotions slider -->
+      <div class="col-md-6">
+        <section class="pb-5">
+          <div id="promo-slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#promo-slider" data-slide-to="0" class="active"></li>
+              <li data-target="#promo-slider" data-slide-to="1"></li>
+              <li data-target="#promo-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://images.unsplash.com/photo-1530053364863-7afc6bcdca88?ixlib=rb-0.3.5&s=dd133a72b90e6353ba7a796efcf28048&auto=format&fit=crop&w=600&q=80"
+                  alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-3 discount mx-5"><span> -50% </span></h5>
+                  <p class="discount mx-5">for all our casual-sport watches</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://images.unsplash.com/photo-1495704907664-81f74a7efd9b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e8c9e3d89d5ea4c4b786b1683ac5d92&auto=format&fit=crop&w=1050&q=80"
+                  alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-3 discount mx-5"><span> -30% </span></h5>
+                  <p class="discount mx-5">for all our ladies watches</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=717ae13fa0e515d1c7c9e92456439845&auto=format&fit=crop&w=1050&q=80"
+                  alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-3 discount mx-5"><span> -20% </span></h5>
+                  <p class="discount mx-5">for all our men watches</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Promotions slider END -->
+
+      <!-- Side menu RIGHT -->
+      <div class="d-none d-md-block col-md-3">
+        <ul class="list-group h-100 pb-5 font-weight-bold">
+          <li class="list-group-item bg-link-men h-25">
+            <a class="text-white" href="#classic-men">MEN - Classic Watches &rarr;</a>
+          </li>
+          <li class="list-group-item bg-link-women h-25">
+            <a class="text-white" href="#classic-women">WOMEN - Classic Watches &rarr;</a>
+          </li>
+          <li class="list-group-item bg-link-smart h-25">
+            <a class="text-white" href="#smartwatches">Smartwatches &rarr;</a>
+          </li>
+          <li class="list-group-item bg-link-wall h-25">
+            <a class="text-white" href="#smartwatches">Wall Clocks &rarr;</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Side menu RIGHT END-->
+    </div>
+  </div>
+
 
   <!-- MAIN container -->
   <section class="container-fluid">
-    <div class="row justify-content-end">
-      <!-- Side menu LEFT -->
-      <div class="col-sm-3 d-none d-md-block">
-        <ul class="list-group">
-          <li class="list-group-item"><a href="#classic-men">MEN - Classic Watches</a></li>
-          <li class="list-group-item"><a href="#classic-women">WOMEN - Classic Watches</a></li>
-          <li class="list-group-item"><a href="#smartwatches">Smartwatches</a></li>
-        </ul>
-      </div>
-      <!-- Side menu LEFT END -->
 
-      <!-- Products gallery -->
-      <article id="classic-men" class="col-md-9">
+    <!-- Products gallery -->
+    <div class="row px-3">
+      <article id="classic-men">
         <h2 class="display-4 mb-4">Men <small class="text-muted">Classic</small></h2>
         <div class="row">
           <div class="col-sm-6 col-lg-4 mb-4">
@@ -156,7 +249,7 @@
         </div>
       </article>
 
-      <article id="classic-women" class="col-md-9">
+      <article id="classic-women">
         <h2 class="display-4 mb-4">Women <small class="text-muted">Classic</small></h2>
         <div class="row">
           <div class="col-sm-6 col-lg-4 mb-4">
@@ -204,7 +297,7 @@
         </div>
       </article>
 
-      <article id="smartwatches" class="col-md-9">
+      <article id="smartwatches">
         <h2 class="display-4 mb-4">Technofile <small class="text-muted">Smartwatch</small></h2>
         <div class="row">
           <div class="col-sm-6 col-lg-4 mb-4">
@@ -293,8 +386,9 @@
           </div>
         </div>
       </article>
-      <!-- Products gallery END -->
     </div>
+    <!-- Products gallery END -->
+
   </section>
   <!-- MAIN container END -->
 
